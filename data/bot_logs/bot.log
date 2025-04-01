@@ -1,0 +1,399 @@
+2025-04-01 11:55:32,074 - INFO - Starting bot service...
+2025-04-01 11:55:32,075 - INFO - Starting numerology API service...
+2025-04-01 11:55:32,078 - INFO - Bot is starting...
+2025-04-01 11:55:32,078 - INFO - Using token: 81305...C8O8s
+2025-04-01 11:55:45,440 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 11:55:45,538 - INFO - Starting polling...
+2025-04-01 11:55:45,636 - INFO - Start polling
+2025-04-01 11:55:45,726 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 11:55:54,015 - INFO - Update id=349437132 is handled. Duration 297 ms by bot id=8130582105
+2025-04-01 11:56:29,357 - INFO - Update id=349437133 is handled. Duration 375 ms by bot id=8130582105
+2025-04-01 12:07:01,900 - ERROR - Ошибка при отправке уведомления админу 346235776: Telegram server says - Bad Request: chat not found
+2025-04-01 12:07:01,902 - INFO - Update id=349437134 is handled. Duration 562 ms by bot id=8130582105
+2025-04-01 12:10:54,889 - INFO - Starting bot service...
+2025-04-01 12:10:54,890 - INFO - Starting numerology API service...
+2025-04-01 12:10:54,891 - INFO - Bot is starting...
+2025-04-01 12:10:54,891 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:10:55,344 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:10:55,479 - INFO - Starting polling...
+2025-04-01 12:10:55,573 - INFO - Start polling
+2025-04-01 12:10:55,660 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:11:35,846 - INFO - Update id=349437135 is handled. Duration 577 ms by bot id=8130582105
+2025-04-01 12:11:47,953 - INFO - Update id=349437136 is handled. Duration 109 ms by bot id=8130582105
+2025-04-01 12:11:51,306 - INFO - Update id=349437137 is handled. Duration 108 ms by bot id=8130582105
+2025-04-01 12:12:05,298 - INFO - Update id=349437138 is handled. Duration 108 ms by bot id=8130582105
+2025-04-01 12:12:14,203 - ERROR - Ошибка при получении данных из БД 'approved'
+2025-04-01 12:12:14,352 - INFO - Update id=349437139 is handled. Duration 156 ms by bot id=8130582105
+2025-04-01 12:12:21,046 - INFO - Update id=349437140 is handled. Duration 110 ms by bot id=8130582105
+2025-04-01 12:12:23,933 - INFO - Update id=349437141 is handled. Duration 139 ms by bot id=8130582105
+2025-04-01 12:12:29,313 - INFO - Update id=349437142 is handled. Duration 202 ms by bot id=8130582105
+2025-04-01 12:12:39,231 - INFO - Update id=349437143 is handled. Duration 108 ms by bot id=8130582105
+2025-04-01 12:12:48,239 - INFO - Update id=349437144 is handled. Duration 188 ms by bot id=8130582105
+2025-04-01 12:12:52,984 - INFO - Update id=349437145 is handled. Duration 125 ms by bot id=8130582105
+2025-04-01 12:12:56,031 - INFO - Update id=349437146 is handled. Duration 156 ms by bot id=8130582105
+2025-04-01 12:12:58,726 - INFO - Update id=349437147 is handled. Duration 125 ms by bot id=8130582105
+2025-04-01 12:13:06,937 - INFO - Update id=349437148 is handled. Duration 92 ms by bot id=8130582105
+2025-04-01 12:33:42,578 - INFO - Starting bot service...
+2025-04-01 12:33:42,579 - INFO - Starting numerology API service...
+2025-04-01 12:33:42,580 - INFO - Bot is starting...
+2025-04-01 12:33:42,580 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:33:42,942 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:33:43,039 - INFO - Starting polling...
+2025-04-01 12:33:43,116 - INFO - Start polling
+2025-04-01 12:33:43,232 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:33:48,574 - INFO - Update id=349437149 is handled. Duration 295 ms by bot id=8130582105
+2025-04-01 12:34:05,185 - INFO - Update id=349437150 is not handled. Duration 0 ms by bot id=8130582105
+2025-04-01 12:34:13,664 - INFO - Update id=349437151 is handled. Duration 328 ms by bot id=8130582105
+2025-04-01 12:34:25,558 - INFO - Update id=349437152 is not handled. Duration 16 ms by bot id=8130582105
+2025-04-01 12:34:25,558 - ERROR - Cause exception while process update id=349437152 by bot id=8130582105
+OperationalError: no such column: access_rights
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\login_handlers.py", line 47, in handle_user
+    if user_id in db_user.get_admins_id():
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\sql_database\User.py", line 166, in get_admins_id
+    result = self.cursor.execute("""
+sqlite3.OperationalError: no such column: access_rights
+2025-04-01 12:36:40,547 - INFO - Starting bot service...
+2025-04-01 12:36:40,548 - INFO - Starting numerology API service...
+2025-04-01 12:36:40,549 - INFO - Bot is starting...
+2025-04-01 12:36:40,549 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:36:40,872 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:36:40,995 - INFO - Starting polling...
+2025-04-01 12:36:41,077 - INFO - Start polling
+2025-04-01 12:36:41,152 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:36:47,793 - INFO - Update id=349437153 is handled. Duration 328 ms by bot id=8130582105
+2025-04-01 12:36:49,770 - INFO - Update id=349437154 is handled. Duration 188 ms by bot id=8130582105
+2025-04-01 12:37:08,477 - INFO - Update id=349437155 is handled. Duration 343 ms by bot id=8130582105
+2025-04-01 12:37:21,888 - INFO - Update id=349437156 is handled. Duration 125 ms by bot id=8130582105
+2025-04-01 12:39:04,799 - INFO - Update id=349437157 is not handled. Duration 0 ms by bot id=8130582105
+2025-04-01 12:39:04,800 - ERROR - Cause exception while process update id=349437157 by bot id=8130582105
+OperationalError: no such column: approved
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 111, in start_command
+    if not db_user.is_approved(user_id):
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\sql_database\User.py", line 47, in is_approved
+    row = self.cursor.execute("SELECT approved FROM users WHERE user_id = ?", (user_id,)).fetchone()
+sqlite3.OperationalError: no such column: approved
+2025-04-01 12:40:08,793 - INFO - Starting bot service...
+2025-04-01 12:40:08,794 - INFO - Starting numerology API service...
+2025-04-01 12:40:08,795 - INFO - Bot is starting...
+2025-04-01 12:40:08,795 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:40:09,117 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:40:09,227 - INFO - Starting polling...
+2025-04-01 12:40:09,312 - INFO - Start polling
+2025-04-01 12:40:09,413 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:40:13,871 - INFO - Update id=349437158 is not handled. Duration 0 ms by bot id=8130582105
+2025-04-01 12:40:13,872 - ERROR - Cause exception while process update id=349437158 by bot id=8130582105
+AttributeError: 'UserDatabase' object has no attribute 'is_approved'
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 111, in start_command
+    if not db_user.is_approved(user_id):
+AttributeError: 'UserDatabase' object has no attribute 'is_approved'
+2025-04-01 12:46:03,751 - INFO - Starting bot service...
+2025-04-01 12:46:03,752 - INFO - Starting numerology API service...
+2025-04-01 12:46:03,753 - INFO - Bot is starting...
+2025-04-01 12:46:03,753 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:46:04,133 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:46:04,229 - INFO - Starting polling...
+2025-04-01 12:46:04,306 - INFO - Start polling
+2025-04-01 12:46:04,402 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:46:12,814 - INFO - Update id=349437160 is handled. Duration 391 ms by bot id=8130582105
+2025-04-01 12:46:41,020 - INFO - Update id=349437161 is handled. Duration 313 ms by bot id=8130582105
+2025-04-01 12:48:57,785 - INFO - Starting bot service...
+2025-04-01 12:48:57,785 - INFO - Starting numerology API service...
+2025-04-01 12:48:57,786 - INFO - Bot is starting...
+2025-04-01 12:48:57,786 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:48:58,135 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:48:58,242 - INFO - Starting polling...
+2025-04-01 12:48:58,347 - INFO - Start polling
+2025-04-01 12:48:58,423 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:49:47,831 - INFO - Update id=349437162 is handled. Duration 280 ms by bot id=8130582105
+2025-04-01 12:50:26,961 - INFO - Update id=349437163 is not handled. Duration 0 ms by bot id=8130582105
+2025-04-01 12:50:26,962 - ERROR - Cause exception while process update id=349437163 by bot id=8130582105
+FileNotFoundError: [Errno 2] No such file or directory: './data/numerology/questionnaire.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 148, in choose_structure
+    with open(excel_path, "rb") as excel_file:
+FileNotFoundError: [Errno 2] No such file or directory: './data/numerology/questionnaire.xlsx'
+2025-04-01 12:52:40,360 - INFO - Starting bot service...
+2025-04-01 12:52:40,360 - INFO - Starting numerology API service...
+2025-04-01 12:52:40,361 - INFO - Bot is starting...
+2025-04-01 12:52:40,361 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:52:40,700 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:52:40,799 - INFO - Starting polling...
+2025-04-01 12:52:40,889 - INFO - Start polling
+2025-04-01 12:52:40,984 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:52:45,327 - INFO - Update id=349437164 is handled. Duration 375 ms by bot id=8130582105
+2025-04-01 12:52:46,636 - INFO - Update id=349437165 is not handled. Duration 0 ms by bot id=8130582105
+2025-04-01 12:52:46,636 - ERROR - Cause exception while process update id=349437165 by bot id=8130582105
+FileNotFoundError: [Errno 2] No such file or directory: './temp/questionnaire.xlsx'
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 148, in choose_structure
+    with open(excel_path, "rb") as excel_file:
+FileNotFoundError: [Errno 2] No such file or directory: './temp/questionnaire.xlsx'
+2025-04-01 12:54:06,359 - INFO - Starting bot service...
+2025-04-01 12:54:06,359 - INFO - Starting numerology API service...
+2025-04-01 12:54:06,359 - INFO - Bot is starting...
+2025-04-01 12:54:06,359 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:54:06,623 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:54:06,722 - INFO - Starting polling...
+2025-04-01 12:54:06,803 - INFO - Start polling
+2025-04-01 12:54:06,910 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:54:10,868 - INFO - Update id=349437166 is handled. Duration 327 ms by bot id=8130582105
+2025-04-01 12:54:12,236 - INFO - Update id=349437167 is handled. Duration 171 ms by bot id=8130582105
+2025-04-01 12:57:19,119 - INFO - Starting bot service...
+2025-04-01 12:57:19,119 - INFO - Starting numerology API service...
+2025-04-01 12:57:19,119 - INFO - Bot is starting...
+2025-04-01 12:57:19,119 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:57:19,438 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:57:19,618 - INFO - Starting polling...
+2025-04-01 12:57:22,523 - INFO - Start polling
+2025-04-01 12:57:22,607 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:57:23,085 - INFO - Update id=349437168 is handled. Duration 343 ms by bot id=8130582105
+2025-04-01 12:57:24,365 - INFO - Update id=349437169 is not handled. Duration 15 ms by bot id=8130582105
+2025-04-01 12:57:24,366 - ERROR - Cause exception while process update id=349437169 by bot id=8130582105
+ValueError: binary mode doesn't take an encoding argument
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 148, in choose_structure
+    with open(excel_path, "rb", encoding="utf-8") as excel_file:
+ValueError: binary mode doesn't take an encoding argument
+2025-04-01 12:58:39,288 - INFO - Starting bot service...
+2025-04-01 12:58:39,289 - INFO - Starting numerology API service...
+2025-04-01 12:58:39,289 - INFO - Bot is starting...
+2025-04-01 12:58:39,289 - INFO - Using token: 81305...C8O8s
+2025-04-01 12:58:39,571 - INFO - Successfully connected as @neurovenchaniye_bot
+2025-04-01 12:58:39,680 - INFO - Starting polling...
+2025-04-01 12:58:39,788 - INFO - Start polling
+2025-04-01 12:58:39,869 - INFO - Run polling for bot @neurovenchaniye_bot id=8130582105 - 'neurovenchaniye_bot'
+2025-04-01 12:58:43,347 - INFO - Update id=349437170 is handled. Duration 296 ms by bot id=8130582105
+2025-04-01 12:58:44,584 - INFO - Update id=349437171 is not handled. Duration 46 ms by bot id=8130582105
+2025-04-01 12:58:44,585 - ERROR - Cause exception while process update id=349437171 by bot id=8130582105
+TypeError: BufferedInputFile.__init__() got an unexpected keyword argument 'encoding'
+Traceback (most recent call last):
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\vladislav.gorbunov\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\vladislav.gorbunov\Desktop\Job\hack\app\handlers\handlers.py", line 150, in choose_structure
+    document=types.BufferedInputFile(
+TypeError: BufferedInputFile.__init__() got an unexpected keyword argument 'encoding'
