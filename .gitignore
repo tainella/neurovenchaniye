@@ -1,4 +1,5 @@
 # C++ objects and libs
+/.venv
 *.slo
 *.lo
 *.o
