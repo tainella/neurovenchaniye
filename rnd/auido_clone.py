@@ -166,6 +166,7 @@ def replace_audio_with_voice_on_segments(video_path, text, num_segments=3, force
             
             segments.append((segment_start, actual_duration))
         
+        
         # Сортируем сегменты по времени начала
         segments.sort(key=lambda x: x[0])
         
